@@ -54,7 +54,7 @@ long double convert(char from, char to, long double t) {
         case 'F':            
             switch(to) {
                 case 'C':
-                    ans=((t-32)*0.55);
+                    ans=((t-32)*(5.0/9.0));
                     break;
                 case 'F': 
                     ans=t;
